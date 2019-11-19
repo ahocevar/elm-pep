@@ -6,7 +6,7 @@ npm package for [elm-pep](https://github.com/mpizenberg/elm-pep), a minimalist p
 
 Install with
 
-    npm install elm-pap
+    npm install elm-pep
 
 Include in your code with
 ```js
