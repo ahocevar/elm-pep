@@ -1,15 +1,15 @@
 {
   "name": "elm-pep",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "npm package for https://github.com/mpizenberg/elm-pep",
   "main": "dist/elm-pep.js",
   "scripts": {
-    "prepublish": "curl -L -o elm-pep.zip https://github.com/mpizenberg/elm-pep/archive/071616d75ca61e261fdefc7b55bc46c34e44ea22.zip && unzip elm-pep.zip && mv elm-pep-071616d75ca61e261fdefc7b55bc46c34e44ea22 dist",
+    "prepublish": "rm -Rf dist && curl -L -o elm-pep.zip https://github.com/mpizenberg/elm-pep/archive/071616d75ca61e261fdefc7b55bc46c34e44ea22.zip && unzip elm-pep.zip && mv elm-pep-071616d75ca61e261fdefc7b55bc46c34e44ea22 dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/openlayers/elm-pep.git"
+    "url": "git://github.com/ahocevar/elm-pep.git"
   },
   "keywords": [
     "pointer",
@@ -22,8 +22,8 @@
   "author": "Andreas Hocevar <andreas.hocevar@gmail.com>",
   "license": "MPL-2.0",
   "bugs": {
-    "url": "https://github.com/openlayers/elm-pep/issues"
+    "url": "https://github.com/ahocevar/elm-pep/issues"
   },
-  "homepage": "https://github.com/openlayers/elm-pep#readme",
+  "homepage": "https://github.com/ahocevar/elm-pep#readme",
   "devDependencies": {}
 }
