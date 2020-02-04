@@ -1,10 +1,10 @@
 {
   "name": "elm-pep",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "npm package for https://github.com/mpizenberg/elm-pep",
   "main": "dist/elm-pep.js",
   "scripts": {
-    "prepublish": "rm -Rf dist && curl -L -o elm-pep.zip https://github.com/mpizenberg/elm-pep/archive/071616d75ca61e261fdefc7b55bc46c34e44ea22.zip && unzip elm-pep.zip && mv elm-pep-071616d75ca61e261fdefc7b55bc46c34e44ea22 dist",
+    "prepublish": "rm -Rf src dist && curl -L -o elm-pep.zip https://github.com/mpizenberg/elm-pep/archive/071616d75ca61e261fdefc7b55bc46c34e44ea22.zip && unzip elm-pep.zip && mv elm-pep-071616d75ca61e261fdefc7b55bc46c34e44ea22 src && tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -25,5 +25,7 @@
     "url": "https://github.com/ahocevar/elm-pep/issues"
   },
   "homepage": "https://github.com/ahocevar/elm-pep#readme",
-  "devDependencies": {}
+  "devDependencies": {
+    "typescript": "^3.7.5"
+  }
 }
