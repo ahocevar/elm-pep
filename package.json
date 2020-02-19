@@ -1,6 +1,6 @@
 {
   "name": "elm-pep",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "npm package for https://github.com/mpizenberg/elm-pep",
   "main": "dist/elm-pep.js",
   "scripts": {
